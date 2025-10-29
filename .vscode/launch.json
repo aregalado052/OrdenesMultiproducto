@@ -1,0 +1,30 @@
+{
+   
+   
+
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch",
+            "request": "launch",
+            "type": "al",
+            //"environmentType": "Sandbox",
+            //"environmentName": "ProdSand2025",
+            //"startupCompany": "PLANET",
+            "environmentType": "Production",
+            "environmentName": "Production",
+            "startupCompany": "PLANET POWER TOOLS IBERICA",
+            "tenant": "251021ba-5e00-454c-9f7d-f4e122268983",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+
+            
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
+
+        }
+
+    ]
+}

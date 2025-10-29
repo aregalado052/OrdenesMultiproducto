@@ -1,0 +1,53 @@
+{
+  "id": "3f4c4b66-1f1a-4c5a-87b1-4d5a8aaa55e6",
+  "name": "Multiple Outputs in Prod. Orders",
+  "publisher": "AREGALADO",
+  "version": "1.2.5.9",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  
+  
+  
+  "runtime": "14.0",
+
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50999
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+ "dependencies": [
+    {
+      "publisher": "Microsoft",
+      "name": "Base Application",
+      "version": "26.5.38752.40627",
+      "id": "437dbf0e-84ff-417a-965d-ed2bb9650972"
+    },
+    {
+      "publisher": "Microsoft",
+      "name": "System Application",
+      "version": "26.5.38752.41032",
+      "id": "63ca2fa4-4f03-4f2b-a480-172fef340d3f"
+    },
+    {
+      "publisher": "Microsoft",
+      "name": "Business Foundation",
+      "version": "26.5.38752.38944",
+      "id": "f3552374-a1f2-4356-848e-196002525837"
+    }
+  ],
+  "features": [ "NoImplicitWith" ],
+  
+  "target": "Cloud"
+}
+

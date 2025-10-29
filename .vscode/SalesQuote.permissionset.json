@@ -1,0 +1,32 @@
+{
+  "id": "7f8a1c12-2f39-4c0d-b00e-0cb1b6e60f13",
+  "name": "SalesQuoteAccess",
+  "caption": "Permisos para crear ofertas y acceder a plantillas",
+  "objectPermissions": [
+    {
+      "objectType": "TableData",
+      "objectName": "Customer Template",
+      "permissions": "R"
+    },
+    {
+      "objectType": "TableData",
+      "objectName": "Customer",
+      "permissions": "RIMD"
+    },
+    {
+      "objectType": "TableData",
+      "objectName": "Contact",
+      "permissions": "RIMD"
+    },
+    {
+      "objectType": "TableData",
+      "objectName": "Sales Header",
+      "permissions": "RIMD"
+    },
+    {
+      "objectType": "TableData",
+      "objectName": "Sales Line",
+      "permissions": "RIMD"
+    }
+  ]
+}
